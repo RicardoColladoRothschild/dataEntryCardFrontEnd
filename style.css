@@ -1,0 +1,94 @@
+:root{
+    --softBlack:#0E0F11;
+    --softerblack:#333738;
+    --middleSofterBlack: #212B2A;
+    --softestblack: #404a4c;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.container{
+    width:100%;
+    height: 100vh;
+    display:grid;
+    place-items: center;
+    background-color: var(--softestblack);
+}
+
+.register-container{
+    width:340px;
+    min-width:150px;
+    max-width:400px;
+    height: 185px;
+    border: none;
+    background-color: var(--middleSofterBlack);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px 0px rgba(139, 137, 139, 0.95);
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.form-container{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:8px;
+    justify-content: center;
+    margin-top: 20px;
+    padding:10px;
+
+}
+.form-container h2{
+    width:150px;
+    text-align: center;
+    font-size: 1.8rem;
+    color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-container .form-container--name{
+    width:170px;
+    height: 31px;
+    outline: none;
+    border-radius: 8px;
+    background-color: var(--middleSofterBlack);
+    border:0.8px solid whitesmoke;
+    color:azure;
+    font-size: 2.0rem;
+}
+
+.form-container .form-container--lastName{
+    width:170px;
+    height: 31px;
+    outline: none;
+    border-radius: 8px;
+    background-color: var(--middleSofterBlack);
+    border:0.8px solid whitesmoke;
+    color:azure;
+    font-size: 2.0rem;
+}
+
+.form-container .form-container--button{
+    width:150px;
+    height: 40px;
+    background-color: var(--softestblack);
+    border:none;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color:azure;
+    cursor: pointer;
+}
+
+
+
